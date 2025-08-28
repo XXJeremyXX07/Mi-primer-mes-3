@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Un mes contigo, Elsa 💖</title>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <canvas id="fondoCorazones"></canvas>
+  <div class="hearts"></div>
+  <div class="main-card">
+    <h1 class="title-animated">Un mes contigo, Elsa</h1>
+    <div id="dias" class="contador"></div>
+    <p class="intro-glow">Eres mi destino favorito, mi casualidad más bonita y mi eterno motivo para sonreír. <span class="pulse-heart">💖</span></p>
+    <div class="carrusel-container">
+      <button class="carrusel-btn" id="prev">&#10094;</button>
+      <div class="carrusel" id="carrusel">
+        <!-- Cambia las imágenes por tus favoritas -->
+        <img src="1.jpg" alt="Foto juntos 1">
+        <img src="2.jpg" alt="Foto juntos 2">
+        <img src="4.jpg" alt="Foto juntos 3">
+      </div>
+      <button class="carrusel-btn" id="next">&#10095;</button>
+    </div>
+    <button class="carta-btn heart-beat" id="revealBtn">
+      <span class="carta-heart"></span> Carta para ti
+    </button>
+    <div id="carta" class="carta-oculta">
+      <p>
+        Elsa,<br><br>
+        Este mes contigo ha sido como un hermoso descubrimiento, una aventura llena de sonrisas, dulzura y momentos inolvidables.<br><br>
+        Gracias por dejarme ser parte de tus días, por tu cariño sincero, tu alegría y esa forma tan especial de iluminar todo a tu alrededor.<br>
+        Cada instante a tu lado es una razón más para querer seguir conociéndote, para reír juntos y abrazar todo lo bueno que la vida nos regala.<br><br>
+        No sé qué nos depare el futuro, pero sí sé que hoy me siento muy afortunado de tenerte cerca.<br>
+        <span class="frase-final">Te quiero mucho, Elsa. Por muchos meses más de sonrisas y momentos lindos juntos. 💖</span>
+        <span class="firma">Jeremy</span>
+      </p>
+    </div>
+    <button id="musicBtn" class="music-btn sparkle">
+      <span class="music-heart">💗</span> Música para nuestro amor
+    </button>
+    <audio id="music" loop src="3.mp3"></audio>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
